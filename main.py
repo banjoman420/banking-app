@@ -93,11 +93,6 @@ def user_account():
         else:
             print('enter a correct number (1 or 2)')
 
-# def get_info():
-#     username = input('what is your username')
-#     password = input('what is your password')
-#     return username, password
-
 def get_info():
     while True:
         username = input('what is your username')
@@ -147,4 +142,3 @@ def main():
     bank = Bank(user)
     bank.main_menu()
 main()
-
